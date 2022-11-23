@@ -5,7 +5,15 @@ main()
     int i = 0;
     while(i < 9)
     {
-        printf("Hello\n"); // на новой строке не просили, но это просто не красиво(
+        printf("Hello\n");
         i++;
     }
+
+    int j = 0;
+    while(j < 15)
+    {
+        printf("%i\n", j++);
+    }
+
+
 }
