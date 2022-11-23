@@ -21,7 +21,7 @@ main()
     scanf("%i",&n);
     while(k < n)
     {
-        printf("%i\n", k++);
-        k++;
+        printf("%i\n", k);
+        k = k + 2;
     }
 }
